@@ -1,0 +1,24 @@
+<!--微信的公用模板，被工程中多个地方调用，数据来源于对应的js文件从公共数据中引用
+
+目前只支持xml 和css 视图相关的操作，不支持js动作 -->
+<template name="posts-item">
+  <view class='post-container'>
+      <view class='post-author-date'>
+        <image class='post-author' src="{{author}}"></image> 
+        <text class='post-date'>{{date}}</text>
+      </view>
+      <text class='post-title'>{{title}}</text>
+      <image class='post-image' src="{{postImg}}"></image>
+      <text class='post-content'>{{content}}</text>
+      <view class='post-like'>
+        <image class='post-like-image' src="{{chatImg}}"></image>
+        <text class='post-like-content'>{{chatNum}}</text>
+
+        <image class='post-like-image' src="{{viewImg}}"></image>
+        <text class='post-like-content'>{{viewNum}}</text>
+      </view>
+  </view>
+</template>
+<!-- <template name="posts-detail">
+
+</template> -->

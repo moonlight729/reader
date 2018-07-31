@@ -1,0 +1,11 @@
+<template name="takePhotos-template">
+  <view>
+    <view>看看是谁这么帅</view>
+    <camera  class='camera-play' device-position='front' flash='off' binderror='onCameraForbidden'>
+    </camera>
+    <button type='primary' bindtap="takePhoto">拍照</button>
+    <!-- <button type='primary' bindtap="closeCamera"></button> -->
+    <text class='preview'>预览</text>
+    <image mode='widthFix' src='{{cameraImgSrc}}'></image>
+  </view>
+</template>

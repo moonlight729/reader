@@ -1,0 +1,5 @@
+<import src= "./movie-grid/movie-grid-template" />
+<view>
+    <!-- <template is="search-input-template" /> -->
+    <template is="movie-grid-template" data="{{movies}}"/>
+</view>

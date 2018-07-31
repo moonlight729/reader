@@ -1,0 +1,21 @@
+<import src="./posts-item/posts-item-template" />
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" catchtap="onSwipertap">
+    <swiper-item >
+      <image src='http://mpic.tiankong.com/f67/8fa/f678fa8c84c96bc2755cf81fa42f0558/640.jpg' data-imgid="3"></image>
+    </swiper-item>  
+    <swiper-item>
+      <image src='http://mpic.tiankong.com/47f/d9f/47fd9f9e822065f26acca305ca01ac9e/640.jpg' data-imgid='4'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='http://mpic.tiankong.com/135/19f/13519fc1253bfc9ba973faa3f0b57907/640.jpg' data-imgid='5'></image>
+    </swiper-item>
+  </swiper>
+  <block wx:for="{{posts_key}}" wx:for-item="item" wx:for-index="idx" wx:key="index">
+    <!--template -->
+    <view catchtap="ontap" data-postid="{{item.postId}}"> <!-- 这里item.　不能省略，下面是用在组件中的写法 -->
+      <template is="posts-item" data="{{...item}}" /> <!--微信自定义属性 -->
+    </view>
+
+  </block>
+</view>

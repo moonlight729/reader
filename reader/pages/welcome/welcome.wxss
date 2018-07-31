@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-img {
+  margin-top:160rpx;
+  width:200rpx;
+  height:200rpx;
+}
+
+.user-name {
+  margin-top:100rpx;
+  font-size:32rpx;
+  font-weight: bold;
+
+}
+.motor-container {
+  margin-top:200rpx;
+  width:200rpx;
+  height:80rpx;
+  border:1rpx solid #405f80;
+  border-radius:5rpx;
+  text-align: center;
+}
+.moto {
+  font-size:22rpx;
+  font-weight: bold;
+  line-height: 80rpx;
+  color: #405f80;
+}
+
+page {
+    background:#b3d4db;
+    height:100%;
+}
+
+/* .navigator-class {
+  color: blue;
+} */

@@ -1,0 +1,15 @@
+<import src="/pages/movies/stars/star-template" />
+
+<template name="movie-template">
+    <view class='movie-info'>
+        <view>
+            <image class='movie-img' src="{{coverage}}"></image>
+        </view>
+        <view class='movie-name-info'>
+            <text class='movie-name'>{{title}}</text>
+        </view>
+        <view>
+            <template is="star-template" data="{{ stars:stars,score:average}}" />
+        </view>
+    </view>
+</template>

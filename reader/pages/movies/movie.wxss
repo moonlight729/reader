@@ -1,0 +1,43 @@
+@import "./movie-list/movie-list-template";
+@import "./stars/star-template";
+@import "./more-movies/movie-grid/movie-grid-template";
+
+
+.movie-template {
+    /* margin-top: 50rpx; */
+    margin-bottom: 30rpx;
+}
+
+.search {
+    width:100%;
+    height: 80rpx;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-img {
+    margin: auto 0 auto 20rpx;
+}
+.search-cancel {
+    width:20rpx;
+    height: 20rpx;
+    margin: auto 20rpx auto 100rpx;
+}
+.search-input {
+    width:600rpx;
+    height: 100%;
+    margin-left: 20rpx;
+    font-size: 28rpx;
+}
+
+.placeholder {
+    font-size: 14px;
+    color: #d1d1d1;
+    margin-left: 20rpx;
+}
+
+.search-pannel {
+    position: absolute;
+    top: 80rpx;
+}

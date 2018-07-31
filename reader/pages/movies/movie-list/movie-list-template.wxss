@@ -1,0 +1,39 @@
+@import "../movie/movie-template";
+@import "../stars/star-template";
+.wrap {
+    /* background: red; */
+}
+.movie-class {
+  margin-left: 28rpx;
+  font-size: 24rpx;
+}
+
+.movie-more {
+  float: right;
+}
+
+.movie-more-text {
+  vertical-align: middle;
+  font-size: 24rpx;
+  color:#3B67BA;
+}
+
+.movie-more-img {
+  vertical-align: middle;
+  margin-left: 17rpx;
+  margin-right: 10rpx;
+  width: 12rpx;
+  height: 12rpx;
+}
+
+.movie {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background: red; */
+  margin-bottom: 30rpx;
+}
+
+.movie-info {
+  flex:1;
+}

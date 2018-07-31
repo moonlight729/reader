@@ -1,0 +1,10 @@
+@import "../../movie/movie-template";
+
+.container {
+    margin-top: 40rpx;
+    margin-left: 16rpx;
+}
+.single-view-container {
+    float: left;
+    margin-bottom:40rpx;
+}

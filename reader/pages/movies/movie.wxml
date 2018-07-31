@@ -1,0 +1,26 @@
+<import src="./movie-list/movie-list-template" />
+<import src="./more-movies/movie-grid/movie-grid-template" />
+
+<view class='search'>
+    <icon class='search-img' type='search' size='13' color='#405f80'></icon>
+    <input class='search-input' type='text' placeholder='风之谷' placeholder-class='placeholder' bindfocus='onBindFocus' bindchange='onBindChange'></input>
+    <image class='search-cancel' wx:if="{{cancelImgShow}}" src='../../images/iconfont/xx.png'ontap="cancelSearch"></image>
+</view>
+
+<view class='container' wx:if="{{containerShow}}">
+    <!-- 对一个对象中内容进行展开，才厚后面使用 -->
+    <view class="movie-template">
+        <template is="movie-list-template" data="{{...inTheaters}}" />
+    </view>
+    <view class="movie-template">
+        <template is="movie-list-template" data="{{...commingSoon}}" />
+    </view>
+    <view class="movie-template">
+        <template is="movie-list-template" data="{{...top250}}" />
+    </view>
+
+</view>
+
+<view class='search-pannel' wx:if="{{searchPanelShow}}">
+    <template is="movie-grid-template" data="{{...searchResult}}" />
+</view>

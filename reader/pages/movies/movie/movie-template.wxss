@@ -1,0 +1,16 @@
+@import "../stars/star-template";
+.movie-info {
+  margin-left: 30rpx;
+  margin-top: 15rpx;
+}
+.movie-img {
+  width:200rpx;
+  height:250rpx;
+}
+.movie-name-info {
+    /* text-align:center; */
+}
+.movie-name {
+  font-size: 25rpx;
+  color: #bbb;
+}

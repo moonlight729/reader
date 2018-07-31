@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/posts/post",
+    "pages/posts/posts-detail/posts-detail",
+    "pages/movies/movie",
+    "pages/movies/more-movies/more-movies",
+    "pages/about/about",
+    "pages/welcome/welcome"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#405f80",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "心语小斋",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/posts/post",
+        "text": "阅读",
+        "borderStyle": "white",
+        "iconPath": "images/tab/ciwei.png",
+        "selectedIconPath": "images/tab/ciwei_hl.png"
+      },
+      {
+        "pagePath": "pages/movies/movie",
+        "text": "电影",
+        "borderStyle": "white",
+        "iconPath": "images/tab/dianying.png",
+        "selectedIconPath": "images/tab/dianying_hl.png"
+      },
+      {
+        "pagePath":"pages/about/about",
+        "text":"关于我",
+        "borderStyle":"white",
+        "iconPath":"images/tab/about.png",
+        "selectedIconPath": "images/tab/about.png"
+      }
+    ],
+    "color": "#3f3f3f",
+    "selectedColor": "#000000",
+    "backgroundColor": "f2f2f2"
+  }
+}

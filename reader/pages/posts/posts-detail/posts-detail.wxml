@@ -1,0 +1,30 @@
+<!-- <import src="../posts-item/posts-item-template"/> -->
+<view>
+  <!-- <template is="posts-detail" detail_data="{{...detail_data}}"></template>  类似于view的...方法，是es6语法 -->
+  <view class='posts-detail-img'>
+    <image class='detail-img' src="{{detail_data.postImg}}"></image>
+    <image class='detail-music' ontap="onTapMusic" src='{{isPlayingMusic ? detail_data.srcMusicStart:detail_data.srcMusicStop}}'>
+    </image>
+
+  </view>
+  <view class='post-date-info'>
+    <image class='detail-author' src='{{detail_data.author}}'></image>
+    <text class='author-name'>{{detail_data.name}}</text>
+    <text class='detail-date'> 发表于</text>
+    <text class='detail-date'>{{detail_data.date}}</text>
+  </view>
+  <view>
+  </view>
+  <text class='posts-detail-title'>{{detail_data.title}}</text>
+  <view class='posts-detail-banner'>
+    <view class='detail-partion-line'></view>
+    <image class='circle-share' catchtap='onShareTap' src='/images/iconfont/share.png'></image>
+    <image wx:if="{{collected}}" class='circle-collect' catchtap='onCollectTap' src='/images/iconfont/collection.png'></image>
+    <image wx:else class='circle-collect' catchtap='onCollectTap' src='/images/iconfont/collection-anti.png'></image>
+  </view>
+  <view>
+    <view>
+      <text class='posts-detail-content'>{{detail_data.detail}}</text>
+    </view>
+  </view>
+</view>

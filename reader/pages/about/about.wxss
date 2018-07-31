@@ -1,0 +1,21 @@
+@import "../play/takePhotos-template";
+
+.btnView {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.preview {
+  position: relative;  
+}
+.btnTakePic {
+    width:300rpx;
+    height: 80rpx;
+    
+}
+
+.btnChangeCamera {
+    width:300rpx;
+    height: 80rpx;
+}

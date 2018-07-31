@@ -1,0 +1,34 @@
+<import src="../play/takePhotos-template" />
+<view>
+  <text>Author:邢志波</text>
+  <view>
+    <text>QQ:</text>
+    <text>312394539</text>
+  </view>
+  <view>
+    <text>Tel:</text>
+    <text>13026676045</text>
+  </view>
+  <view>
+    <!-- <text>当前位置</text>
+    <map>
+
+    </map> -->
+  </view>
+
+  <view>
+    <view>看看是谁这么帅</view>
+    <camera  class='camera-play' device-position='{{device_position}}' flash='off' binderror='onCameraForbidden'>
+    </camera>
+    <view class='btnView'>
+        <button class='btnTakePic' type='primary' bindtap="takePhoto">拍照</button>
+        <button class='btnChangeCamera' type='primary' bindtap="changeCamera">切换</button>
+    </view>
+    <view class='preview'>
+        <text>预览</text>
+    </view>
+    
+    <image mode='widthFix' src='{{cameraImgSrc}}'></image>
+  </view>
+
+</view>

@@ -1,0 +1,7 @@
+  <view class="container">
+    <image class="user-img" src="/images/wx_photo.jpeg"></image>
+    <text class="user-name">hello cat</text>
+    <view class="motor-container" bind:tap="tapFunc">
+      <text class="moto">开启小程序之旅</text>
+    </view>
+  </view>

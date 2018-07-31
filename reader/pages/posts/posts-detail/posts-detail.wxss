@@ -1,0 +1,89 @@
+/* 引入外部公用模板的样式 */
+ /* @import "../posts-item/posts-item-template" */
+
+.posts-detail-img {
+  position: relative;
+  width:100%;
+  height: 480rpx;
+}
+ .detail-img {
+  width: 100%;
+} 
+.post-date-info {
+  margin-top: 30rpx;
+}
+.detail-author {
+  width:100rpx;
+  height:100rpx;
+  vertical-align: middle;
+}
+.author-name {
+  vertical-align: middle;
+  font-size:24rpx;
+  margin-left:20rpx;
+  color:#777;
+}
+.detail-date {
+  vertical-align: middle;
+  font-size:24rpx;
+  color:#777;
+  margin-left: 100rpx;
+}
+.posts-detail-banner {
+  position: relative;
+  width:100%;
+  height:200rpx; 
+
+}
+.detail-partion-line {
+  height: 1px;
+  width:666rpx;
+  background: #e5e5e5;
+  vertical-align: middle; 
+  position: relative;
+  top: 46rpx;
+  margin: 0 auto;
+  z-index: -99; 
+
+}
+.circle-collect {
+  float: right; 
+  width:80rpx;
+  height:80rpx;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+.circle-share {
+  float: right;
+  width:80rpx;
+  height:80rpx;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+
+
+.posts-detail-title {
+  font-size:40rpx;
+  margin-left: 40rpx;
+  margin-top: 30rpx;
+  font-family: MicroSoft Yahei;
+  display: block;
+
+}
+.posts-detail-content {
+  font-size:30rpx;
+  margin-left:30rpx;
+  font-family: MicroSoft Yahei;
+}
+
+.detail-music {
+  width:140rpx;
+  height: 140rpx;
+  position: absolute; 
+  left: 50%;
+  margin-left: -51rpx;
+  top: 108rpx;
+  opacity: 0.6
+
+
+}

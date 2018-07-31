@@ -1,0 +1,5 @@
+.camera-play {
+    height: 600rpx;
+    width: 100%;
+
+}

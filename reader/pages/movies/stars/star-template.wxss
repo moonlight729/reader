@@ -1,0 +1,21 @@
+.star-container {
+  display: flex;
+  flex-direction: row;
+}
+star-list {
+  display: block;
+  flex: 1;
+  margin-left: 20rpx;
+}
+.star {
+  width: 20rpx;
+  height:20rpx;
+}
+.score-container {
+  width: 5rpx;
+  height: 5rpx;
+}
+.score {
+  font-size:20rpx;
+  margin-left: 12rpx;
+}
